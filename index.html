@@ -1,32 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/base.css">
+    <title>EgyptTour</title>
 </head>
 <body>
-
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="header__nav-content">
+                    <div class="header__nav-left">
+                        <a href="" class="header__nav-logo">EgyptTour</a>
+                        <div class="header__nav-search">
+                            <button>
+                                <i class="fal fa-search header__nav-btn"></i>
+                            </button>
+                            <input type="text" placeholder="Search" class="header__nav-input">
+                        </div>
+                    </div>
+                    <div class="header__nav-right">
+                        <ul class="header__nav-list">
+                            <li><a href="" class="header__nav-link">Home</a></li>
+                            <li><a href="" class="header__nav-link">Guides</a></li>
+                            <li><a href="" class="header__nav-link">About</a></li>
+                            <li><a href="" class="header__nav-link">Inspiration</a></li>
+                            <li><a href="" class="header__nav-link">Contact</a></li>
+                        </ul>
+                        <button class="header__nav-sign">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <img src="img/pexels-taryn-elliott-3889907 2.png" alt="" class="header__content-bg">
+            <h1 class="header__content-title">Find the Best Egyptian Guide</h1>
+            
         </div>
-    </div>
-    <!-- Конец -->
-
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
-
+        <div class="container">
+            <div class="header__block">
+                <div class="header__block-item">
+                    <div class="header__block-info">
+                        <h4 class="header__block-title">Gender</h4>
+                        <p class="header__block-sel">Male</p>
+                    </div>
+                    <i class="far fa-chevron-down"></i>
+                </div>
+                <div class="header__block-item">
+                    <div class="header__block-info">
+                        <h4 class="header__block-title">Age</h4>
+                        <p class="header__block-sel">24+</p>
+                    </div>
+                    <i class="far fa-chevron-down"></i>
+                </div>
+                <div class="header__block-item">
+                    <div class="header__block-info">
+                        <h4 class="header__block-title">Language</h4>
+                        <p class="header__block-sel">English, Arabic</p>
+                    </div>
+                    <i class="far fa-chevron-down"></i>
+                </div>
+                <div class="header__block-item">
+                    <div class="header__block-info">
+                        <h4 class="header__block-title">Lacalisation</h4>
+                        <p class="header__block-sel">Cairo</p>
+                    </div>
+                    <i class="far fa-chevron-down"></i>
+                </div>
+                <button class="header__block-btn">Search</button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="guides">
+            <div class="container">
+                <div class="guides__content">
+                    <div class="guides__content-top">
+                        <h2 class="guides__content-title">Guides for you!</h2>
+                        <button class="guides__content-btn">See All Guides</button>
+                    </div>
+                    <div class="guides__content-items">
+                        <div class="guides__content-item">
+                            <div class="guides__content-img">
+                                <img src="img/guide1.png" alt="">
+                            </div>
+                            <h3 class="guides__content-name">Abayomi Mallik</h3>
+                            <div class="guides__content-stars">
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                            </div>
+                            <p class="guides__content-txt">1000+ reviews</p>
+                        </div>
+                        <div class="guides__content-item">
+                            <div class="guides__content-img">
+                                <img src="img/guide2.png" alt="">
+                            </div>
+                            <h3 class="guides__content-name">Berenike Eman</h3>
+                            <div class="guides__content-stars">
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                            </div>
+                            <p class="guides__content-txt">1000+ reviews</p>
+                        </div>
+                        <div class="guides__content-item">
+                            <div class="guides__content-img">
+                                <img src="img/guide3.png" alt="">
+                            </div>
+                            <h3 class="guides__content-name">Abu Bakar</h3>
+                            <div class="guides__content-stars">
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                            </div>
+                            <p class="guides__content-txt">1000+ reviews</p>
+                        </div>
+                        <div class="guides__content-item">
+                            <div class="guides__content-img">
+                                <img src="img/guide4.png" alt="">
+                            </div>
+                            <h3 class="guides__content-name">Dendera Heba</h3>
+                            <div class="guides__content-stars">
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                                <i class="fas fa-star guides__content-star"></i>
+                            </div>
+                            <p class="guides__content-txt">1000+ reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="how">
+            <div class="container">
+                <h2 class="how__title">How does it Work?</h2>
+                <div class="how__content">
+                    <div class="how__content-item">
+                        <img src="img/How1.svg" alt="">
+                        <h3 class="how__content-name">Select a Guide</h3>
+                    </div>
+                    <div class="how__content-item">
+                        <img src="img/how2.svg" alt="">
+                        <h3 class="how__content-name">Contact Guide</h3>
+                    </div>
+                    <div class="how__content-item">
+                        <img src="img/how3.svg" alt="">
+                        <h3 class="how__content-name">Create your Travel</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tourist">
+            <div class="tourist__content">
+                <img src="img/are-you-tourist.png" alt="" class="tourist__content-bg">
+                <h2 class="tourist__content-title">Are you a Tourist Guide in Egypt?</h2>
+            </div>
+            <div class="container">
+                <div class="tourist__block">
+                    <h3 class="tourist__block-title">
+                        Be referenced on our site, 
+                        <span>it's 100% free!</span>
+                    </h3>
+                    <div class="tourist__block-right">
+                        <button class="tourist__block-btn">
+                            I am a Tourist Guide
+                        </button>
+                        <div class="tourist__block-joinus">
+                            <img src="img/join-us.svg" alt="">
+                            <p class="tourist__block-text">
+                                <span>1000+</span>
+                                tourist join us
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title">Learn more About Egypt</h2>
+                <div class="about__items">
+                    <div class="about__item hotel">
+                        <div class="about__item-hotel">
+                            <img src="img/about1.png" alt="">
+                        </div>
+                        <h3 class="about__item-title hotel_title">Hotel</h3>
+                        <p class="about__item-text">
+                            Where to sleep in Luxor?
+                            <i class="fal fa-arrow-right about__item-icon"></i>
+                        </p>
+                    </div>
+                    <div class="about__right-items">
+                        <div class="about__item">
+                            <div class="about__item-img">
+                                <img src="img/about2.png" alt="">
+                            </div>
+                            <div class="about__item-info">
+                                <h3 class="about__item-title">Restaurant</h3>
+                                <p class="about__item-text">
+                                    5 restaurant in Cairo
+                                    <i class="fal fa-arrow-right about__item-icon"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item-img">
+                                <img src="img/about3.png" alt="">
+                            </div>
+                            <div class="about__item-info">
+                                <h3 class="about__item-title">Advance & Tip</h3>
+                                <p class="about__item-text">
+                                    Is Egypt dangerous?
+                                    <i class="fal fa-arrow-right about__item-icon"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__info-title">EgyptTour</h3>
+                    <p class="footer__info-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <ul class="footer__content-list">
+                    <h3 class="footer__content-title">Useful Links</h3>
+                    <li><a href="" class="footer__content-link">About</a></li>
+                    <li><a href="" class="footer__content-link">Guide</a></li>
+                    <li><a href="" class="footer__content-link">Inspiration</a></li>
+                    <li><a href="" class="footer__content-link">Contact</a></li>
+                </ul>
+                <ul class="footer__content-list">
+                    <h3 class="footer__content-title">Resources</h3>
+                    <li><a href="" class="footer__content-link">Become a guide</a></li>
+                    <li><a href="" class="footer__content-link">Legal</a></li>
+                    <li><a href="" class="footer__content-link">Blog</a></li>
+                    <li><a href="" class="footer__content-link">Help</a></li>
+                </ul>
+                <div class="footer__content-contacts">
+                    <h3 class="footer__content-title">Contact Us</h3>
+                    <div class="footer__content-connect">
+                        <a href="" class="footer__content-contact">
+                            <i class="fal fa-envelope footer__content-icon"></i>
+                            infomail@gmail.com
+                        </a>
+                        <a href="" class="footer__content-contact">
+                            <i class="fal fa-map-marker-alt footer__content-icon"></i>
+                            48 Street Road, Cairo
+                        </a>
+                    </div>
+                    <div class="footer__content-socials">
+                        <i class="fab fa-facebook-f footer__soc-icon"></i>
+                        <i class="fab fa-twitter footer__soc-icon"></i>
+                        <i class="fab fa-instagram footer__soc-icon"></i>
+                        <i class="fab fa-linkedin-in footer__soc-icon"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer__bottom">
+                <h4 class="footer__bottom-rights">
+                    © 2022 
+                    <span>EgyptTour</span>
+                </h4>
+                <div class="footer__bottom-links">
+                    <a href="" class="footer__bottom-link">Privacy Policy</a>
+                    <a href="" class="footer__bottom-link">Term of Condition</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

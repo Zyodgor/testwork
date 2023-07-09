@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'InterM';
+    src: url(../fonts/Inter/Inter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'InterSB';
+    src: url(../fonts/Inter/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'JostM';
+    src: url(../fonts/Jost/Jost-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'MontB';
+    src: url(../fonts/Mont/Mont-Bold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'MontR';
+    src: url(../fonts/Mont/Mont-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MontSB';
+    src: url(../fonts/Mont/Mont-SemiBold.otf);
+    font-weight: 600;
+}
